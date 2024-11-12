@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+}
+.container {
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* -----------------------HEADER BLOG----------------------- */
+#header {
+    width: 1920px;
+    height: 480px;
+    margin: auto;
+}
+/* ---NAV BLOG--- */
+.nav {
+    height: 120px;
+}
+.nav img {
+    cursor: pointer;
+}
+.nav img:hover {
+    opacity: 0.5;
+}
+.nav .list li {
+    list-style: none;
+    padding: 10px 25px;
+}
+.nav .list li a {
+    text-decoration: none;
+    color: #000;
+}
+.nav .list li a:hover {
+    color: #CDA274;
+    border-bottom:1px solid #CDA274;
+}
+.nav .btn {
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    color: #ffffff;
+    background-color: #DC0048;
+    cursor: pointer;
+}
+.nav .btn:hover {
+    background-color: #dc00492f;
+}
+/* -----------------------ABOUT BLOG----------------------- */
+.about {
+    width: 1920px;
+    height: 356px;
+    background-image: url("./image/about.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box {
+    width: 1125px;
+    height: 356px;
+    padding-top: 178px;
+}
+.about__box {
+    display: flex;
+    justify-content: center;
+}
+.about-us {
+    width: 503px;
+    height: 178px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 37px 37px 0 0;
+}
+.about-us h1{
+    margin-top: 60px;
+    font-size: 50px;
+    color: #292F36;
+    cursor: pointer;
+}
+.about-us p {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 800;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+/* -----------------------SECTION BLOG----------------------- */
+.reverse {
+    flex-direction: row-reverse;
+}
+.section__item {
+    width: 875px;
+    height: 430px;
+    border: 25px solid #F4F0EC;
+    margin: 200px 0;
+    padding: 85px;
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 200px;
+}
+.section__item i {
+    font-size: 30px;
+    font-style: italic;
+}
+.section__item .text {
+    padding: 25px 0;
+    font-size: 35px;
+    font-style: italic;
+}
+.section__card {
+    margin-bottom: 120px;
+}
+.section__card-item {
+    padding: 75px;
+    color: #4D5053;
+}
+.section__card-item h1 {
+    font-size: 50px;
+}
+.section__card-item p {
+    margin: 25px 0;
+    font-size: 22px;
+}
+.section__card-item .btn {
+    padding: 22px 40px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #292F36;
+    cursor: pointer;
+}
+.section__card-item .btn:hover {
+    border: none;
+    background-color: #292929a9;
+}
+.section__card-item .btn i {
+    color: #CDA274;
+}
+.section__card-img img {
+    width: 500px;
+    border-radius: 50px;
+}
+#main {
+   background-color: #F4F0EC; 
+   padding: 130px 0;
+}
+.main__item {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main__profil .profil {
+    width: 270px;
+    height: 430px;
+    gap: 20px;
+}
+.main__profil .profil img {
+    width: 270px;
+    border-radius: 50px;
+}
+.main__profil .three {
+    padding: 60px 30px;
+    border-radius: 50px;
+    text-align: center;
+    color: #4D5053;
+    background-color: #ffffff;
+}
+.main__profil .three p {
+    font-size: 30px;
+    font-weight: 800;
+}
+.main__profil .three p span {
+    font-size: 20px;
+}
+.main__profil .three i {
+    margin: 60px 0;
+    font-size: 18px;
+    padding: 0 15px;
+}
+.main__profil .three .address {
+    font-size: 25px;
+}
+/* -----------------------FORM BLOG----------------------- */
+#article {
+    padding: 130px 0;
+    text-align: center;
+    color: #292F36;
+}
+#article h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+#article input {
+    margin-right: 35px;
+    padding: 25px 250px 25px 25px;
+    text-align: left;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #4D5053;
+}
+#article textarea {
+    margin-top: 50px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #4D5053;
+}
+#article .btn {
+    margin-top: 80px;
+    padding: 22px 40px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #292F36;
+    cursor: pointer;
+}
+#article .btn:hover {
+    border: none;
+    background-color: #292929a9;
+}
+#article .btn i {
+    color: #CDA274;
+}
